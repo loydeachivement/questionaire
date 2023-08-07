@@ -137,7 +137,7 @@
           emailjs.sendForm(serviceID, templateID, this).then(
             (response) => {
               console.log("SUCCESS!", response.status, response.text, redir);
-              window.open("https://www.w3schools.com");
+              window.open("https://osthanks.netlify.app");
             },
             (error) => {
               console.log("FAILED...", error);
